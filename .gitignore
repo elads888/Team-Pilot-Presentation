@@ -1,0 +1,49 @@
+# Ignore the teamPilotData folder and all its contents
+teamPilotData/
+ignore/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env/
+*.venv
+Pipfile
+Pipfile.lock
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# PyCharm specific files
+.idea/
+*.iml
+
+# Logs and databases
+*.log
+*.sqlite3
+*.db
+
+# Data and results
+*.csv
+*.h5
+*.npz
+*.pkl
+*.json
+*.xlsx
+
+# Ignore model artifacts
+*.h5
+*.ckpt
+*.tflite
+*.onnx
+*.pt
+
+# Ignore cache and temp files
+.DS_Store
+*.bak
+*.swp
+*.swo
+Thumbs.db

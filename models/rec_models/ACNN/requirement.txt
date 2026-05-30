@@ -1,0 +1,10 @@
+torch==1.2.0
+torchnet
+ipdb
+tqdm
+scikit-image
+opencv-python
+pillow
+numpy
+torchvision
+scipy
